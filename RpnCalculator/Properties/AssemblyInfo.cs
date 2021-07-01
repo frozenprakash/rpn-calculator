@@ -8,9 +8,9 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("RpnCalculator")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Worlds simplest, shortest and cleanest Rpn Calculator")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Frozen Incorporation")]
 [assembly: AssemblyProduct("RpnCalculator")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
