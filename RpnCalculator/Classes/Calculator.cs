@@ -104,9 +104,7 @@ namespace RpnCalculator.Classes
 
                     stack.Push(s3);
                     break;
-
             }
-
             return stack.Pop().ToNumber();
         }
     }

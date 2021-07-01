@@ -9,7 +9,7 @@ namespace RpnCalculator.Classes
 {
     public static class Local
     {
-        public static MainWindow window { get; set; }
+        public static RpnCalculatorWindow window { get; set; }
 
         public static Stack<string> stack;
 

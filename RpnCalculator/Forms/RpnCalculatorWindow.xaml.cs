@@ -19,9 +19,9 @@ namespace RpnCalculator.Forms
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class RpnCalculatorWindow : Window
     {
-        public MainWindow()
+        public RpnCalculatorWindow()
         {
             InitializeComponent();
             Local.window = this;

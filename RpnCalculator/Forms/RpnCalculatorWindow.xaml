@@ -1,4 +1,4 @@
-﻿<Window x:Class="RpnCalculator.Forms.MainWindow"
+﻿<Window x:Class="RpnCalculator.Forms.RpnCalculatorWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -43,19 +43,18 @@
             </Grid.ColumnDefinitions>
 
             <Label x:Name="LblInput" 
-                   Content="Input string"
+                   Content="Input expression"
                    FontSize="15"
                    Grid.Row="0"
                    Grid.Column="0"/>
-
             <Label x:Name="LblProcessed" 
                    Content="Processed string"
+                   IsEnabled="False"
                    FontSize="15"
                    Grid.Row="2"
                    Grid.Column="0"/>
-
             <Label x:Name="LblOutput" 
-                   Content="Output string"
+                   Content="Output"
                    FontSize="15"
                    Grid.Row="4"
                    Grid.Column="0"/>
@@ -64,12 +63,11 @@
                      Grid.Row="0"
                      Grid.Column="1"
                      FontSize="15"/>
-
             <TextBox x:Name="TbProcessed"
+                     IsEnabled="False"
                      Grid.Row="2"
                      Grid.Column="1"
                      FontSize="15"/>
-
             <TextBox x:Name="TbOutput"
                      Grid.Row="4"
                      Grid.Column="1"
